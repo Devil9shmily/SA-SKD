@@ -135,24 +135,4 @@ paper-scale architecture by using residual temporal convolution units at
 64/128/256 channels; this yields approximately 3.1M parameters and makes the
 two stages use one compatible student. Legacy draft files are kept locally in
 the ignored `legacy/` directory and are not part of the public package.
-
-## Citation and license
-
-Citation metadata is provided in [CITATION.cff](CITATION.cff). No open-source
-license has been selected yet; add the license approved by the authors before
-making the repository public.
-
-## Publish to GitHub
-
-After reviewing the repository name and license, publish only the files tracked
-by Git (the ignored `data/`, `outputs/`, and `legacy/` content must stay local):
-
-```bash
-git init
-git add .
-git status
-git commit -m "Initial research code release"
-git branch -M main
-git remote add origin https://github.com/ACCOUNT/REPOSITORY.git
-git push -u origin main
 ```
